@@ -155,6 +155,7 @@ for n = 1, length do
     --turtle.turnLeft()
 
     if n < length then
+        print("Diggin iteration " .. n .. " out of " .. length)
         tryDig()
         if not tryForward() then
             print("Aborting Tunnel.")
