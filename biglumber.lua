@@ -362,6 +362,3 @@ while doCycle do
   print("End of tree chopping cycle.........[OK]")
   sleep(5.0) -- General sleeping. This is not a high performance program, just give some breathing room to the server in case of loop.
 end
-
-
-
